@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['fds_5fadd_289',['fds_add',['../clamd__others_8c.html#aeb0c81e8ec86f30120a00efe8dfce62c',1,'fds_add(struct fd_data *data, int fd, int listen_only, int timeout):&#160;clamd_others.c'],['../clamd__others_8h.html#aeb0c81e8ec86f30120a00efe8dfce62c',1,'fds_add(struct fd_data *data, int fd, int listen_only, int timeout):&#160;clamd_others.c']]],
+  ['fds_5fcleanup_290',['fds_cleanup',['../clamd__others_8c.html#a4f63bac923a7dc2bc6060a237ea6f6d0',1,'fds_cleanup(struct fd_data *data):&#160;clamd_others.c'],['../clamd__others_8h.html#a4f63bac923a7dc2bc6060a237ea6f6d0',1,'fds_cleanup(struct fd_data *data):&#160;clamd_others.c']]],
+  ['fds_5ffree_291',['fds_free',['../clamd__others_8c.html#aa5a75427322470338f716f606bee4971',1,'fds_free(struct fd_data *data):&#160;clamd_others.c'],['../clamd__others_8h.html#aa5a75427322470338f716f606bee4971',1,'fds_free(struct fd_data *data):&#160;clamd_others.c']]],
+  ['fds_5fpoll_5frecv_292',['fds_poll_recv',['../clamd__others_8c.html#a0d970dcfdb085c83648f49285d6a8cf4',1,'fds_poll_recv(struct fd_data *data, int timeout, int check_signals, void *event):&#160;clamd_others.c'],['../clamd__others_8h.html#a0d970dcfdb085c83648f49285d6a8cf4',1,'fds_poll_recv(struct fd_data *data, int timeout, int check_signals, void *event):&#160;clamd_others.c']]],
+  ['fds_5fremove_293',['fds_remove',['../clamd__others_8c.html#ae6c97e8de174ad79f4867d7503b6a2db',1,'fds_remove(struct fd_data *data, int fd):&#160;clamd_others.c'],['../clamd__others_8h.html#ae6c97e8de174ad79f4867d7503b6a2db',1,'fds_remove(struct fd_data *data, int fd):&#160;clamd_others.c']]]
+];

@@ -1,0 +1,17 @@
+digraph "conn_reply"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="conn_reply",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="conn_reply_errno",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8h.html#a6d9384a87350f7fc29bc122520ce24f6",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="scan_callback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$scanner_8h.html#aae8acf49b230c8a26603817cd78725b3",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="conn_reply_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8h.html#aa674ec201c2465b2af25ace039b98940",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="execute_or_dispatch\l_command",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8h.html#a9dcb5686c0d416538ac1189e62207638",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

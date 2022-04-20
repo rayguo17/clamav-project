@@ -1,0 +1,27 @@
+digraph "scan_callback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="scan_callback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="conn_reply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8c.html#a7063d83241832910ded91c755fe486fb",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="conn_reply_errno",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8c.html#a6d9384a87350f7fc29bc122520ce24f6",tooltip=" "];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="conn_reply_single",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8c.html#a8aaffeabd1c4c6a7eb8188a733fc1a42",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="conn_reply_virus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$session_8c.html#ab29acfc241515f8a95759f18f6e8dfed",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="thrmgr_group_dispatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$thrmgr_8c.html#a92d7e59df6ede0fbf38bffde3765806d",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="thrmgr_group_need_terminate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$thrmgr_8c.html#a96e2372d8c712cf7292550feda98897a",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="thrmgr_group_terminate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$thrmgr_8c.html#aab2e1e365fc9db28460219e487f98627",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="thrmgr_setactivetask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$thrmgr_8c.html#a8d615aaf90bbd1b559ad507494663815",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="virusaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clamd__others_8c.html#ac1c32a5ca182054ca11e57ca608ebf0d",tooltip=" "];
+}

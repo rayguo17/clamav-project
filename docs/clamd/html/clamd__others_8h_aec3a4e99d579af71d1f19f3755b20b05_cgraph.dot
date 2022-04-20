@@ -1,0 +1,16 @@
+digraph "poll_fd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="poll_fd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="fds_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clamd__others_8c.html#aeb0c81e8ec86f30120a00efe8dfce62c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="fds_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clamd__others_8c.html#aa5a75427322470338f716f606bee4971",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="fds_poll_recv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clamd__others_8c.html#a0d970dcfdb085c83648f49285d6a8cf4",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="fds_cleanup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clamd__others_8c.html#a4f63bac923a7dc2bc6060a237ea6f6d0",tooltip=" "];
+}

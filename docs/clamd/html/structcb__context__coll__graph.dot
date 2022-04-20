@@ -1,0 +1,17 @@
+digraph "cb_context"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="cb_context",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scandata" ,fontname="Helvetica"];
+  Node2 [label="scan_cb_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structscan__cb__data.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" conn" ,fontname="Helvetica"];
+  Node3 [label="client_conn_tag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structclient__conn__tag.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group" ,fontname="Helvetica"];
+  Node4 [label="jobgroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structjobgroup.html",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thrpool" ,fontname="Helvetica"];
+  Node5 [label="threadpool_tag",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$structthreadpool__tag.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group" ,fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thr_pool" ,fontname="Helvetica"];
+}
